@@ -1,8 +1,8 @@
 services:
     cloudflare:
         image: cloudflare/cloudflared:latest
-        container_name: cloudflare
-        hostname: cloudflare
+        container_name: cloudflare-backup
+        hostname: cloudflare-backup
         command:
             - tunnel
             - "run"
